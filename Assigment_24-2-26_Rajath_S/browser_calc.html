@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple calculator</title>
+  <style>
+    body {
+      background-color: #d6e8d8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .calc-wrap {
+      background-color: #e8f2e8;
+      padding: 28px 32px;
+      border-radius: 8px;
+    }
+
+    button {
+      background-color: #c2dbc4;
+      color: #2a3d2b;
+      padding: 10px 18px;
+      margin: 3px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 1rem;
+      border: none;
+    }
+
+    button:hover {
+      background-color: #a8c9ab;
+    }
+
+    button:active {
+      background-color: #8fb992;
+    }
+  </style>
+</head>
+<body>
+  <div class="calc-wrap">
+    <h2 style="margin: 0 0 16px 0; text-align: center; color: #2a3d2b; letter-spacing: 0.04em;">Simple Console Calculator</h2>
+    <button onclick=" calculation+='1 '; console.log(calculation);">1</button>  
+    <button onclick="calculation+='2 '; console.log(calculation);">2</button>  
+    <button onclick=" calculation+='3 ';console.log(calculation);">3</button><br>
+  <br>
+    <button onclick=" calculation+='4 '; console.log(calculation);">4</button>  
+    <button onclick="calculation+='5 '; console.log(calculation);">5</button>  
+    <button onclick=" calculation+='6 ';console.log(calculation);">6</button>   
+    <button onclick="calculation+='+ '; console.log(calculation) ">+</button>   
+    <button onclick=" calculation+='* ';console.log(calculation);">*</button> <br>
+  <br>
+  <button onclick="calculation+='7 '; console.log(calculation);">7</button>  
+  <button onclick="calculation+='8 '; console.log(calculation);">8</button>  
+  <button onclick="calculation+='9 '; console.log(calculation);">9</button>   
+  <button onclick="calculation+='- '; console.log(calculation);"> - </button>   
+  <button onclick="calculation+='/ '; console.log(calculation);">/</button>
+  <br>
+  <br>
+  <button onclick="calculation+='0 '; console.log(calculation);">0</button>   
+  <button onclick="calculation=' '; console.log('calculation cleared');">c</button>   
+  <button onclick="calculation+='( '; console.log(calculation);">(</button>  
+  <button onclick="calculation+=') '; console.log(calculation);">)</button>  
+  <button onclick="calculation+=' . '; console.log(calculation);">.</button>  
+  <button onclick="calculation=eval(calculation); console.log(calculation);">=</button>  
+  </div>
+
+  <script>
+  let calculation=' ';
+  </script>
+
+</body>
+</html>

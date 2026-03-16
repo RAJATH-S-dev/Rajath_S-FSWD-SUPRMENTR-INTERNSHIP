@@ -1,0 +1,111 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #1a1a1a; /* Near-black for readability */
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+.Div1 {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* Typography */
+h1 {
+    font-size: 2.2rem;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-weight: 500;
+    color: #4a4a4a; /* Dark grey */
+    font-size: 1.1rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    color: #000000;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+/* Lines & Dividers */
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0; /* Light grey line */
+    margin: 15px 0;
+}
+
+/* Image */
+img { /* Keeps the image in theme */
+    border: 1px solid #d1d1d1;
+    margin: 10px 0;
+}
+
+/* Lists & Content */
+ul {
+    padding-left: 20px;
+    margin: 15px 0;
+    list-style-type: square;
+}
+
+li p {
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+/* Links */
+a {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #cccccc;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: #666666;
+    border-bottom: 1px solid #000000;
+}
+
+/* Footer Section */
+.resume-footer {
+    max-width: 850px;
+    margin: 50px auto 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-bottom: 8px;
+    color: #4a4a4a;
+}
+
+.social-links strong {
+    color: #000000;
+}
+
+.copyright {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: #999999; /* Light grey for secondary text */
+    text-align: left;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 600px) {
+    h1 { font-size: 1.8rem; }
+    body { padding: 20px 15px; }
+}

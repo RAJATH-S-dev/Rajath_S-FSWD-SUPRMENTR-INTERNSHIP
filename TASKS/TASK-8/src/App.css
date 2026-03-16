@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  background: #e8e8e8;
+  color: #222;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #ccc;
+  padding: 14px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #111;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header-nav a {
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  color: #666;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  color: #111;
+}
+
+.header-nav a.active {
+  color: #111;
+  font-weight: bold;
+  border-bottom: 1px solid #111;
+  padding-bottom: 2px;
+}
+
+
+.main {
+  flex: 1;
+  padding: 40px 20px;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 6px;
+  color: #111;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.divider {
+  border-top: 1px solid #ccc;
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: #666;
+  margin-bottom: 14px;
+}
+
+
+.card {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 24px;
+  margin-bottom: 10px;
+}
+
+
+button {
+  padding: 9px 20px;
+  background: #ffffff;
+  color: #111;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-family: Georgia, serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e0e0e0;
+}
+
+
+.footer {
+  background: #ffffff;
+  border-top: 1px solid #ccc;
+  padding: 16px 30px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  color: #888;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-links a {
+  font-size: 0.8rem;
+  color: #888;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #333;
+}

@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  background: #e8e8e8;
+  color: #222;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #ccc;
+  padding: 14px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #111;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-nav a {
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  color: #666;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  color: #111;
+}
+
+.cart-count {
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  color: #111;
+  font-weight: bold;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 6px;
+  color: #111;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.divider {
+  border-top: 1px solid #ccc;
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 0.78rem;
+  letter-spacing: 2px;
+  color: #666;
+  margin-bottom: 14px;
+}
+
+/* Layout */
+.layout {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+/* Product Section */
+.product-section {
+  flex: 2;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+/* Cart Section */
+.cart-section {
+  flex: 1;
+  min-width: 260px;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+/* Cart Row */
+.cart-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Quantity Controls */
+.qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.qty-controls button {
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  background: #e8e8e8;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: Georgia, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qty-controls button:hover {
+  background: #d4d4d4;
+}
+
+.qty-controls span {
+  font-size: 0.95rem;
+  color: #111;
+  min-width: 16px;
+  text-align: center;
+}
+
+/* Total Row */
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Empty */
+.empty {
+  text-align: center;
+  color: #999;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+  background: #ffffff;
+  border-top: 1px solid #ccc;
+  padding: 16px 30px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  color: #888;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-links a {
+  font-size: 0.8rem;
+  color: #888;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}

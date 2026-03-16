@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#container {
+    margin-top: 30px;
+}
+
+.new-div {
+    background-color: lightblue;
+    padding: 15px;
+    margin: 10px auto;
+    width: 200px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}

@@ -1,0 +1,162 @@
+body {
+  font-family: Georgia, serif;
+  background: #f0ece4;
+  padding: 30px 20px;
+  color: #222;
+}
+
+.app {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 6px;
+  color: #111;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.divider {
+  border-top: 1px solid #bbb;
+  margin-bottom: 24px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 0.78rem;
+  letter-spacing: 2px;
+  color: #666;
+  margin-bottom: 14px;
+}
+
+/* Mood Grid */
+.mood-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.mood-btn {
+  background: #f9f6f1;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 14px 10px;
+  cursor: pointer;
+  font-family: Georgia, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.mood-btn:hover {
+  background: #e8e4dc;
+}
+
+.mood-btn.active {
+  border: 2px solid #555;
+  background: #e8e4dc;
+}
+
+.emoji {
+  font-size: 1.8rem;
+}
+
+.mood-label {
+  font-size: 0.85rem;
+  color: #333;
+}
+
+/* Selected Box */
+.selected-box {
+  background: #f9f6f1;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.selected-text {
+  font-size: 1rem;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.log-btn {
+  padding: 8px 24px;
+  background: #f0ece4;
+  color: #111;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-family: Georgia, serif;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.log-btn:hover {
+  background: #e8e4dc;
+}
+
+/* History Cards */
+.history-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #f9f6f1;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+}
+
+.history-emoji {
+  font-size: 1.6rem;
+}
+
+.history-info {
+  flex: 1;
+}
+
+.history-mood {
+  font-size: 1rem;
+  color: #111;
+  margin-bottom: 2px;
+}
+
+.history-time {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.delete-btn:hover {
+  color: #333;
+}
+
+/* Empty */
+.empty {
+  text-align: center;
+  color: #999;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}

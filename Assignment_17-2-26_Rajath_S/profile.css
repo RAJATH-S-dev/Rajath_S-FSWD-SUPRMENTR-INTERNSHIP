@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ede8e1;
+  font-family: Georgia, serif;
+  color: #2e2e2e;
+  padding: 48px 16px;
+}
+
+.card {
+  background-color: #f5f1ec;
+  border: 1.5px solid #d6cfc6;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid #111111;
+  margin-bottom: 14px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #111111;
+  margin-bottom: 6px;
+}
+
+.tagline {
+  font-size: 0.85rem;
+  color: #b0a89e;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.divider {
+  height: 1px;
+  background-color: #d6cfc6;
+  margin-bottom: 28px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 0.72rem;
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #111111;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 0.93rem;
+  line-height: 1.8;
+  color: #2e2e2e;
+}
+
+/* skill group label */
+.skill-label {
+  font-size: 0.75rem;
+  font-family: Georgia, serif;
+  color: #b0a89e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+
+.tag-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.tag-list li {
+  background-color: #e2dbd3;
+  border: 1px solid #d6cfc6;
+  padding: 4px 12px;
+  font-size: 0.82rem;
+  color: #2e2e2e;
+  font-family: Georgia, serif;
+}
+
+/* projects */
+.project {
+  margin-bottom: 22px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #e2dbd3;
+}
+
+.project:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 4px;
+}
+
+.project-title {
+  font-size: 0.97rem;
+  font-weight: bold;
+  color: #111111;
+}
+
+.project-date {
+  font-size: 0.78rem;
+  color: #b0a89e;
+}
+
+.project-tags {
+  font-size: 0.78rem;
+  color: #b0a89e;
+  margin-bottom: 8px;
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+
+.project ul {
+  padding-left: 16px;
+}
+
+.project ul li {
+  font-size: 0.88rem;
+  line-height: 1.75;
+  color: #2e2e2e;
+  margin-bottom: 4px;
+}
+
+/* education */
+.edu-degree {
+  font-size: 0.97rem;
+  font-weight: bold;
+  color: #111111;
+  margin-bottom: 3px;
+}
+
+.edu-school {
+  font-size: 0.9rem;
+  color: #2e2e2e;
+  margin-bottom: 3px;
+}
+
+.edu-meta {
+  font-size: 0.82rem;
+  color: #b0a89e;
+}
+
+/* certifications / leadership */
+ol, ul {
+  padding-left: 18px;
+}
+
+ol li, ul li {
+  font-size: 0.9rem;
+  line-height: 2;
+  color: #2e2e2e;
+}
+
+/* links */
+.link-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+.link-list a {
+  font-size: 0.9rem;
+  color: #111111;
+  text-decoration: underline;
+}
+
+.link-list a:hover {
+  color: #b0a89e;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.78rem;
+  color: #b0a89e;
+}

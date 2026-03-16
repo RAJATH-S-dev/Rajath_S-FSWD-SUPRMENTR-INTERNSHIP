@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  background: #e8e8e8;
+  color: #222;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #ccc;
+  padding: 14px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #111;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header-nav a {
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  color: #666;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  color: #111;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 6px;
+  color: #111;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.divider {
+  border-top: 1px solid #ccc;
+  margin-bottom: 24px;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 24px;
+}
+
+/* Field */
+.field {
+  margin-bottom: 16px;
+}
+
+.field label {
+  display: block;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1rem;
+  background: #ffffff;
+  color: #111;
+  font-family: Georgia, serif;
+}
+
+.field input:focus,
+.field select:focus {
+  outline: none;
+  border-color: #888;
+}
+
+/* Error */
+.error {
+  margin-top: 4px;
+  font-size: 0.82rem;
+  color: #b94040;
+}
+
+/* Success */
+.success-text {
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  color: #3a7a3a;
+  margin-bottom: 12px;
+}
+
+.card p {
+  margin: 4px 0;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+/* Submit */
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background: #ffffff;
+  color: #111;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: Georgia, serif;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.submit-btn:hover {
+  background: #e0e0e0;
+}
+
+button {
+  padding: 9px 20px;
+  background: #ffffff;
+  color: #111;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-family: Georgia, serif;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e0e0e0;
+}
+
+/* Footer */
+.footer {
+  background: #ffffff;
+  border-top: 1px solid #ccc;
+  padding: 16px 30px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  color: #888;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-links a {
+  font-size: 0.8rem;
+  color: #888;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #333;
+}

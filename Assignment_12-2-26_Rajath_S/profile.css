@@ -1,0 +1,99 @@
+/* ── Reset & Base ── */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  background: #f9f7f4;
+  color: #222;
+  max-width: 620px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.7;
+}
+
+/* ── Header ── */
+header {
+  text-align: center;
+  padding: 40px 0 24px;
+  border-bottom: 2px solid #222;
+  margin-bottom: 32px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #222;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -0.5px;
+}
+
+.tagline {
+  color: #666;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+/* ── Sections ── */
+section {
+  margin-bottom: 28px;
+}
+
+h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+}
+
+p {
+  color: #444;
+}
+
+ul, ol {
+  padding-left: 20px;
+  color: #444;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+/* ── Links section ── */
+ul.links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+ul.links a {
+  color: #222;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+ul.links a:hover {
+  color: #555;
+}
+
+/* ── Footer ── */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid #ccc;
+  font-size: 0.85rem;
+  color: #999;
+}
